@@ -1,0 +1,7 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+    @for (int i = 0; i < ViewBag.weather.Count; i++)
+    {
+        <p>@ViewBag.weatherText[i]</p>
+    }
